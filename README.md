@@ -5,10 +5,10 @@ This is a simple application interactively mapping the outdoor activity sites an
 ## Data
 The dataset used in this application consists of two point GeoJson data and one polygon GeoJson data.
 
-* Accessible Outdoor Recreation Destinations data. It was collected from NYS clearing house, containing accessible recreation sites throughout New York State that are owned, maintained or jointly managed by provide by NYS Dept. of Environmental Conservation (DEC).
+* Accessible Outdoor Recreation Destinations data. It was collected from [NYS Clearing House](http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1201), containing accessible recreation sites throughout New York State that are owned, maintained or jointly managed by provide by NYS Dept. of Environmental Conservation (DEC).
 
 
-* Point of Interest data. It was collected from NYS clearing house also provided by DEC. It consist of Point data locating and differentiating assets on state lands. Assets represented as point features are man-made items, which require periodic maintenance or inspection. Examples include: custodial, asset, lean-to, parking lot, leanto, pit privy, campsite, trail structure, parking, primitive site, fire tower, scenic vista, picnic site, day use area, and others.
+* Point of Interest data. It was collected from NYS Clearing House also provided by DEC. It consist of Point data locating and differentiating assets on state lands. Assets represented as point features are man-made items, which require periodic maintenance or inspection. Examples include: custodial, asset, lean-to, parking lot, leanto, pit privy, campsite, trail structure, parking, primitive site, fire tower, scenic vista, picnic site, day use area, and others.
 
 
 * NY County-level Census data: collected from US Census bureau.
