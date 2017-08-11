@@ -14,7 +14,7 @@ The datasets used in this application consists of two point GeoJson data and one
 
 
 
-## Structure & usage
+## Structure & Usage
 
 The application is built based on layers and all layers
 are controlled by the layer control in the top right corner.
