@@ -11,7 +11,7 @@ The datasets used in this application consists of two point GeoJson data and one
 * Point of Interest data. It was collected from NYS clearing house also provided by DEC. It consist of Point data locating and differentiating assets on state lands. Assets represented as point features are man-made items, which require periodic maintenance or inspection. Examples include: custodial, asset, lean-to, parking lot, leanto, pit privy, campsite, trail structure, parking, primitive site, fire tower, scenic vista, picnic site, day use area, and others.
 
 
-* NY County-level Census data: collected from US Census buaru,
+* NY County-level Census data: collected from US Census bureau.
 
 
 
