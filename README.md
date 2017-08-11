@@ -1,7 +1,7 @@
-#This is an application interactively mapping the outdoor activity sites and points of interest in New York Stats using leaflet.js
+# This is an application interactively mapping the outdoor activity sites and points of interest in New York Stats using leaflet.js
 
 
-##Data
+## Data
 The datasets used in this application consists of two point GeoJson data and one polygon GeoJson data.
 
 * Accessible Outdoor Recreation Destinations data. It was collected from NYS clearing house, containing accessible recreation sites throughout New York State that are owned, maintained or jointly managed by provide by NYS Dept. of Environmental Conservation (DEC).
@@ -14,7 +14,7 @@ The datasets used in this application consists of two point GeoJson data and one
 
 
 
-##Structure & usage
+## Structure & usage
 
 The application is built based on layers and all layers
 are controlled by the layer control in the top right corner.
@@ -25,5 +25,5 @@ The points are marked on the map as clustered markers using a leaflet plugin cal
 
 The New York county is also an interactive Choropleth Map (legend in the bottom right corner). When hover on the feature, the infro window on the top right corner will display the census information of the county being hovered and when it is clicked, the map will zoom into the county.
 
-##
+## Closing
 This application is a good practice to learn how to display GIS data using leaflet.js
