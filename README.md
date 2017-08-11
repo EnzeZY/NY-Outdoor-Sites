@@ -20,11 +20,11 @@ The datasets used in this application consists of two point GeoJson data and one
 The application is built based on layers and all layers
 are controlled by the layer control in the top right corner.
 
-There are five different style base maps, using the mapbox service (internet access is needed for loading the base map) and three overlays(two point layers and one polygon layer), all the layers are interactive. (The search function is still under construction righr now)
+There are five different style base maps, using the mapbox service (internet access is needed for loading the base map) and three overlays (two point layers and one polygon layer), all the layers are interactive. (The search function is still under construction right now)
 
 The points are marked on the map as clustered markers using a leaflet plugin called [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) and it will zoom in when clicked on the cluster. When the original marker is clicked, the infowindow will show a detail information about the site.
 
-The New York county is also an interactive Choropleth Map (legend in the bottom right corner). When hover on the feature, the infro window on the top right corner will display the census information of the county being hovered and when it is clicked, the map will zoom into the county.
+The New York county is also an interactive choropleth map (legend in the bottom right corner). When hover on the feature, the info window on the top right corner will display the census information of the county being hovered and when it is clicked, the map will zoom into the county.
 
 ## Closing
 This application is a good practice to learn how to display GIS data using leaflet.js
