@@ -1,9 +1,9 @@
 # Overview
-This is a simple application interactively mapping the outdoor activity sites and points of interest in New York Stats using leaflet.js
+This is a simple application interactively mapping the outdoor activity sites and points of interest in New York Stats using [leaflet.js](http://leafletjs.com/).
 
 
 ## Data
-The datasets used in this application consists of two point GeoJson data and one polygon GeoJson data.
+The dataset used in this application consists of two point GeoJson data and one polygon GeoJson data.
 
 * Accessible Outdoor Recreation Destinations data. It was collected from NYS clearing house, containing accessible recreation sites throughout New York State that are owned, maintained or jointly managed by provide by NYS Dept. of Environmental Conservation (DEC).
 
