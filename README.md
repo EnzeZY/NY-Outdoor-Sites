@@ -1,4 +1,5 @@
-# This is an application interactively mapping the outdoor activity sites and points of interest in New York Stats using leaflet.js
+# Overview
+This is a simple application interactively mapping the outdoor activity sites and points of interest in New York Stats using leaflet.js
 
 
 ## Data
