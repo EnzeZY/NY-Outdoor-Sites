@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <title>This is a project for NBT solution</title>
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <!--    <link rel="stylesheet" href="leaflet/leaflet.css" /> -->
+ <link rel="stylesheet" href="css/MarkerCluster.css" />
+ <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+ <script type="text/javascript" src="lib/jquery.min.js"></script>
+ <script type="text/javascript" src="lib/bootstrap.js"></script>
+ <!--  <script type="text/javascript" src="leaflet/leaflet.js"></script> -->
+ <!--  <script src="lib/leaflet.geocsv.js"></script> -->
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+ <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+ <script type="text/javascript" src="lib/leaflet.markercluster-src.js"></script>
+
+ <!-- data loading! -->
+ <script type="text/javascript" src="data/Sites.geojson"></script>
+ <script type="text/javascript" src="data/NYCensus.geojson"></script>
+ <script type="text/javascript" src="data/POI.geojson"></script>
+
+ <style type="text/css">
+   input[type=text] {
+    width: 0px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 100%;
+  }
+</style>
+</head>
+
+<body>
+  <div id="mapid" style="position:absolute;height:100%;width:100%;top:0;left:0">
+    <div style="position:absolute;z-index: 1001;width:15%;top:95px;left:10px">
+     <form>
+      <div class="input-group">
+        <input type="text" class="form-control search" placeholder="Search Place Here" >
+        <div class="input-group-btn">
+          <button class="btn btn-info search" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div ></div>
+</div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
